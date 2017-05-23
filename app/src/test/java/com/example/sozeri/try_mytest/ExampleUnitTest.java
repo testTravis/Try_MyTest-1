@@ -13,6 +13,7 @@ public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
+
     }
     @Test
     public void addition_isCorrect1() throws Exception {
@@ -21,6 +22,6 @@ public class ExampleUnitTest {
 
     @Test
     public void addition_isCorrect2() throws Exception {
-        assertEquals(2, 3 + 2);
+        assertEquals(5, 4 + 1);
     }
 }
