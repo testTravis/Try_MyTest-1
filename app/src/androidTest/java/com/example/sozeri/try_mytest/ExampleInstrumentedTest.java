@@ -23,4 +23,9 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.example.sozeri.try_mytest", appContext.getPackageName());
     }
+    
+       @Test
+    public void addition_isCorrectErez() throws Exception {
+        assertEquals(5, 4 + 3);
+    }
 }
